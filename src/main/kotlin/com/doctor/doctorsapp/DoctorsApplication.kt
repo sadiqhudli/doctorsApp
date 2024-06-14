@@ -9,5 +9,5 @@ class DoctorsApplication
 fun main(args: Array<String>) {
 	runApplication<DoctorsApplication>(*args)
 
-	println("hello")
+	println("test")
 }

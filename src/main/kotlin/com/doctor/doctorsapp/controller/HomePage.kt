@@ -11,4 +11,10 @@ class HomePage {
     fun homeRoute():String{
         return "Hello App is Running "
     }
+
+    @GetMapping("/home")
+    fun homePage():String{
+
+        return "hello homePage App is Running"
+    }
 }
